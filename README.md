@@ -25,6 +25,14 @@ The system performs a predefined motion sequence:
 
 PWM signals are used through the L293D Enable pins to control motor speed.
 
+### Part 1 Circuit
+
+The following circuit implements the four DC motor motion control system using the Arduino Uno and L293D motor driver.
+
+<p align="center">
+  <img src="images/part1_circuit_diagram.jpg" width="750">
+</p>
+
 ### Part 2 — Obstacle Detection & Autonomous Direction Control
 
 The second stage enhances the original motor control system by integrating:
@@ -45,6 +53,14 @@ When an obstacle is detected at a distance of 10 cm or less:
 5. The L293D changes the motor directions to turn the robot.
 6. The sensing head returns to its forward position.
 7. Normal forward movement continues.
+
+### Part 2 Circuit — Enhanced System
+
+The original motor control system was extended with an HC-SR04 ultrasonic sensor and a servo-mounted scanning mechanism for obstacle detection and autonomous direction control.
+
+<p align="center">
+  <img src="images/part2_circuit_diagram.PNG" width="750">
+</p>
 
 ## Pin Configuration
 
